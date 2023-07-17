@@ -31,6 +31,8 @@ private:
     }
 };
 
+void T(const Foo *f){};
+
 int main()
 {
     char arr[] = "David";
@@ -49,5 +51,8 @@ int main()
 
     cout << "-==========================-" << endl;
     Foo foo;
+
+    std::string const  name = "1";
+//    name = 2;
 
 }
